@@ -1,8 +1,10 @@
 import React from "react";
-
+import Search from './Search'
+import Logo from './Logo'
 function MenuLinks() {
   return (
     <div className="side-menu">
+      <Logo />
       <ul>
         <li className="active">
           <span role="img" aria-label="home">
@@ -23,6 +25,7 @@ function MenuLinks() {
           New Album
         </li>
       </ul>
+      <Search />
     </div>
   );
 }
